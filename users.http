@@ -1,0 +1,16 @@
+
+###
+POST localhost:4200/users
+
+{
+   \"firstName\": \"Berholdt\",
+   \"lastName\": \"Hoover\"
+}
+
+###
+DELETE localhost:4200/users/bfb5727b-69ab-46ac-961d-554e190c7712
+
+###
+GET localhost:4200/users
+
+###
